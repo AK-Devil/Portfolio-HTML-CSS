@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: #f5efef; */
+    color:black;
+}
+/* Header/Nav */
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: #810000;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+.header>a{
+    margin: auto 10px;
+    text-decoration: none;
+}
+.header>a:hover{
+    color: red;
+}
+.header>img{
+    margin: 1% 0 1% 0;
+    width: 5%;
+    border-radius: 50%;
+}
+/* Main/Header */
+.Background{
+    height: 100vh;
+    background-image: url("./qq.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-origin: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Background>h1{
+    font-size: 50px;
+    text-align: center;
+    color: #e97171;
+    font-family: 'Dancing Script', cursive;
+    
+}
+.Background>p{
+    font-size: 30px;
+    text-align: center;
+}
+.Background>p>span{
+    font-weight: 800;
+    text-decoration: underline;
+}
+/* Work */
+.work-container>ul>li>.container{
+    width: 50%;
+    background-color: #ddd;
+}
+.work-container>ul>li>.skills{
+    border: 1px solid black;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+.html {
+    width: 90%; 
+    background-color: #4CAF50;
+} /* Green */
